@@ -1,0 +1,40 @@
+.footer-area{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.left_area{
+    display: flex;
+    justify-content: space-around;    
+    flex-wrap: wrap;    
+}
+.left_area a i{
+    font-size: 36px;
+}
+.right_area h2{
+    margin-bottom: 5%;
+    text-align: center;
+}
+.line{
+    padding: 2% 0;
+    border-bottom: 1px solid #333;
+}
+.right_area h2{
+    font-size: var(--font--h2);
+}
+.notify{   
+    display: flex;
+    flex-direction: column;   
+    flex-wrap: wrap;
+    gap: 2%;
+    font-size: var(--font--p); 
+}
+.footer-bt{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2%; 
+    margin-bottom: 5%; 
+}

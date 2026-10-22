@@ -1,0 +1,67 @@
+@import url('./common.css');
+.menu{
+    display: flex;
+    justify-content: space-between;        
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    color: var(--font-color--sub_color);    
+    background-color: var(--bg-color--header_bg);            
+}
+.menu h1{
+    padding-right: 37%;     
+    padding-left: 2%;
+    font-size: var(--font--h2);
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;     
+    gap: 15px;    
+    padding-right: 2%;    
+}
+.nav > li{
+    position: relative;
+    padding: 3% 0;
+    /* display: flex; */
+}
+.nav > li > a{    
+    font-size: var(--font--p);    
+}
+.nav > li:hover .sub_menu{
+    display: flex;
+}
+.sub_menu{    
+    position: absolute;
+    display: none;
+    flex-direction: column;        
+    text-align: center;
+    gap: 10px;
+    top: 100%;
+    left: 50%;
+    transform: translatex(-50%);
+    width: 150px;        
+    background-color: var(--bg-color--header_bg);
+    z-index: 9;        
+}
+.sub_menu a{    
+    padding: 8px 0;    
+    display: block;
+    font-size: var(--font--p);
+}
+.sub_menu li:hover a{        
+    background-color: var(--bg-color--arrows_bg);    
+}
+.hamburger >a{
+    display: none;       
+    flex-direction: column;
+    gap: 5px;    
+}
+.hamburger >a span{
+    width: 25px;
+    height: 3px;
+    background-color: var(--bg-color--main_bg);
+}
+.hamburger:hover{
+    z-index: 9999;
+}

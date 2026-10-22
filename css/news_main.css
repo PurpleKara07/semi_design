@@ -1,0 +1,38 @@
+@import url('./common.css');
+.news_main{   
+    margin: 2% 0;      
+}
+.news_bg{
+    padding: 2% 0;
+    color: var(--bg-color--main_bg);
+    background-color: var(--bg-color--news_bg);
+}
+.news_bg >h2{         
+    font-size: var(--font--h2);
+    text-align: center;
+}
+.news_wrap{
+    display: flex;
+    flex-wrap: wrap;       
+    gap: 2%;    
+    padding-top: 2%;
+}
+.news_wrap li{
+    width: calc((100% - 4%) / 3);
+    padding: 1%;
+}
+.news_wrap li p{
+    padding-top: 20%;
+    font-size: var(--font--p);
+    color: var(--font-color--main_color);
+}
+.news_area{
+    position: relative;    
+    aspect-ratio: 2 / 1.5;
+    overflow: hidden;
+}
+.news_area img{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}

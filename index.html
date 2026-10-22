@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>세미 웹사이트</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/slide_main.css">
+    <link rel="stylesheet" href="./css/vedio_main.css">
+    <link rel="stylesheet" href="./css/news_main.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/mobile_menu.css">
+    <!-- Link Swiper's CSS -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css"
+    />
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+    <script src="./js/swiper_main.js" defer></script> 
+    <script src="./js/main.js" defer></script>   
+    
+</head>
+<body>
+    <div class="wrap">
+        <!-- Header -->
+        <header class="header">
+            <div class="inner">
+                <div class="menu">  
+                    <h1><a href="#">Volvic</a></h1>
+                    <ul class="nav">
+                        <li class="hamburger">
+                            <a href="#" class="hamburger_menu">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">About Brand</a>
+                            <ul class="sub_menu">
+                                <li>
+                                    <a href="#">volvic is</a>
+                                </li>
+                                <li>
+                                    <a href="#">History</a>
+                                </li>
+                                <li>
+                                    <a href="#">Technology</a>
+                                </li>
+                                <li>
+                                    <a href="#">Team Vlivik</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Global</a></li>
+                        <li><a href="#">Ball</a></li>
+                        <li><a href="#">Gear</a></li>
+                        <li><a href="#">ParkGolf</a></li>
+                        <li>
+                            <a href="#">Gneul.zip</a>
+                            <ul class="sub_menu">
+                                <li>                                     
+                                    <a href="#">Gneul.zip</a>
+                                </li>
+                                <li>
+                                    <a href="#">CONDOR Championship</a>
+                                </li>
+                                <li>
+                                    <a href="#">2026 볼빅 파크골프 챔피언</a>
+                                </li>
+                                <li>
+                                    <a href="#">Catalog</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Notice</a>
+                            <ul class="sub_menu">
+                                <li>
+                                    <a href="#">Notice</a>
+                                </li>
+                                <li>
+                                    <a href="#">오시는길</a>
+                                </li>
+                                <li>
+                                    <a href="#">대량구매</a>
+                                </li>
+                                <li>
+                                    <a href="#">A/S안내</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- <li class="hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </li> -->
+                        <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    </ul>                                        
+                </div> 
+            </div>
+        </header>
+        <!-- 모바일 사이드 메뉴 -->
+        <div class="mobile_menu">
+            <ul>
+                <li><a href="#">About Brand</a></li>
+                <li><a href="#">Global</a></li>
+                <li><a href="#">Ball</a></li>
+                <li><a href="#">Gear</a></li>
+                <li><a href="#">ParkGolf</a></li>
+                <li><a href="#">Gneul.zip</a></li>
+                <li><a href="#">Notice</a></li>                
+            </ul>
+        </div> 
+        <!-- Swiper_main -->
+        <div class="inner">
+            <div class="swiper main_Swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./images/slide_img1.jpg" alt="이미지1"></div>
+                    <div class="swiper-slide"><img src="./images/slide_img2.jpg" alt="이미지2"></div>
+                    <div class="swiper-slide"><img src="./images/slide_img3.jpg" alt="이미지3"></div>
+                    <div class="swiper-slide"><img src="./images/slide_img4.jpg" alt="이미지4"></div>
+                    <div class="swiper-slide"><img src="./images/slide_img5.jpg" alt="이미지5"></div>
+                    <div class="swiper-slide"><img src="./images/slide_img6.jpg" alt="이미지6"></div>
+                    <div class="swiper-slide"><img src="./images/slide_img7.jpg" alt="이미지7"></div>
+                    <div class="swiper-slide"><img src="./images/slide_img8.jpg" alt="이미지8"></div>                
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>         
+        <!-- video_main -->
+        <div class="vedio_area">
+            <div class="vedio_main">
+                <!-- 비디오 -->
+                <video autoplay loop muted>
+                    <source src="./images/visual.mp4" type="video/mp4" />
+                </video>             
+            </div>       
+        </div> 
+        <!-- Swiper_sub -->
+        <div class="inner">
+            <div class="swiper sub_Swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide img_wrap">
+                        <img src="./images/sub_slide/sub_slide1.jpg" alt="이미지1">                        
+                    </div>
+                    <div class="swiper-slide img_wrap">
+                        <img src="./images/sub_slide/sub_slide2.jpg" alt="이미지2">                        
+                    </div>
+                    <div class="swiper-slide img_wrap">                        
+                        <img src="./images/sub_slide/sub_slide3.jpg" alt="이미지3">                        
+                    </div>
+                    <div class="swiper-slide img_wrap">
+                        <img src="./images/sub_slide/sub_slide4.jpg" alt="이미지4">                        
+                    </div>
+                    <div class="swiper-slide img_wrap">                        
+                        <img src="./images/sub_slide/sub_slide5.jpg" alt="이미지5">                       
+                    </div>                                    
+                    <div class="swiper-slide img_wrap">                        
+                        <img src="./images/sub_slide/sub_slide6.jpg" alt="이미지6">                       
+                    </div>                                    
+                    <div class="swiper-slide img_wrap">                        
+                        <img src="./images/sub_slide/sub_slide7.jpg" alt="이미지7">                       
+                    </div>                                    
+                    <div class="swiper-slide img_wrap">                        
+                        <img src="./images/sub_slide/sub_slide8.jpg" alt="이미지8">                       
+                    </div>                                    
+                </div>
+                <div class="swiper-pagination"></div>                
+            </div>
+        </div>         
+        <!-- news_main -->
+        <section class="news_main">
+            <div class="inner news_bg">
+                <h2>What we Do</h2>
+                <ul class="news_wrap">
+                    <li>
+                        <div class="news_area">
+                            <img src="./images/news_img/news_img1.jpg" alt="이미지1">
+                        </div>
+                        <p>
+                            혁신적인 연구개발과 V-Technology
+                            볼빅은 끊임없는 혁신을 통해 골프의 미래를 설계합니다. 
+                        </p>
+                    </li>
+                    <li>
+                        <div class="news_area">
+                            <img src="./images/news_img/news_img2.jpg" alt="이미지2">
+                        </div>
+                        <p>
+                            승리를 향한 여정. 볼빅과 함께하는 프로선수들 최고의
+                            플레이어들이 선택한 브랜드 그 이유를 확인하세요.
+                        </p>
+                    </li>
+                    <li>
+                        <div class="news_area">
+                            <img src="./images/news_img/news_img3.jpg" alt="이미지3">
+                        </div>
+                        <p>
+                            세계 60개국으로 볼빅은 글로벌 시장을 선도하며
+                            전 세계 골퍼들에게 새로운 경험을 제공합니다.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section> 
+        <!-- footer -->
+        <footer>
+            <div class="inner footer-area">
+                <div class="left_area">
+                    <a href="https://www.facebook.com"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.instagram.com"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.tiktok.com"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+                <div class="right_area">
+                    <h2>Volvik</h2>
+                    <div>
+                        <p class="notify">
+                            본사: 서울시 강남구 영동대로 333(대치동, 동원빌딩 5층)<br>
+                            공장&연구소 : 충청북도 음서군 대소면 대금로 628(태생리 42-2)<br>
+                            전화 02-424-5211 / 공장 043-877-1916 / AS센터 070-4194-2181<br>
+                            상담시간: AM 09:00 ~ PM 06:00(공휴일 휴무)<br>
+                        </p>                       
+                    </div>
+                    <p class="line"></p>
+                    <div class="footer-bt">
+                        <p class="notify">이용약관</p>
+                        <p class="notify">개인정보처리방침</p>
+                        <p class="notify">이메일무단수집거부</p>
+                    </div>
+                </div>
+                <div class="hidden_area">
+                </div>
+            </div>
+        </footer> 
+    </div>
+</body>
+</html>

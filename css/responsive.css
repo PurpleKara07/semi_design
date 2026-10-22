@@ -1,0 +1,28 @@
+@media(max-width: 768px){
+    .nav li:not(:first-child){        
+        display: none;
+    }   
+    .hamburger >a{
+        display: flex;                
+    }
+    .news_wrap li{
+        width: calc((100% - 2%) / 2);
+        padding: 1%;
+    }    
+}
+@media(max-width: 390px){
+    .news_wrap li{
+        width: 100%;
+        padding: 2%;
+    }
+    .main_Swiper .swiper-button-next,
+    .main_Swiper .swiper-button-prev{
+        display: none;
+    }
+    .main_Swiper .swiper-pagination{
+        display: none;
+    }
+    .sub_Swiper .swiper-pagination{
+        display: none;
+    }
+}

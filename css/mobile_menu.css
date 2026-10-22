@@ -1,0 +1,29 @@
+.mobile_menu{
+    position: fixed;
+    top: 0;
+    /* left: 0; */
+    left: -300px;    
+    margin-top: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 300px;    
+    height: 100vh;      
+    color: var(--bg-color--main_bg);
+    background-color: var(--bg-color--news_bg);    
+    z-index: 999;
+    transition: all 0.3s;
+}
+.mobile_menu.active{
+    left: 0;
+}
+.mobile_menu li{
+    border-bottom: 1px solid #eee;
+}
+.mobile_menu li:last-child{
+    border: none;
+}
+.mobile_menu li a{
+    display: block;
+    padding: 16px 0;
+    font-size: var(--font--h3);
+}
